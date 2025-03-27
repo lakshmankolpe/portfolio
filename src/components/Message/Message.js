@@ -2,6 +2,8 @@ import React from 'react';
 import './Message.css';
 import { useRef } from 'react';
 import emailjs from 'emailjs-com';
+import toast, { Toaster } from 'react-hot-toast';
+
 
 function Message() {
     const form = useRef();
@@ -9,10 +11,11 @@ function Message() {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_812jmpc', 'template_74g4jwm', form.current, 'Lz76G_s1CbzkSjbaL')
-
+ emailjs.sendForm('service_l6qxmmf', 'template_ea0one8', form.current, 'x_VVuXJVDJb1Vf-VI')
         e.target.reset();
-    };
+       toast.success('Message sent successfully!');
+     };
+    
 
     return (
         <>
@@ -21,12 +24,12 @@ function Message() {
                     <div className='col-md-7'>
                         <div className='contact-card'>
                             <h4 className='text-center mb-3'>Education</h4>
-                            <p>I Currently Pursing my <b>Bachelor of Engineering B.E.</b> in <b>Computer Engineering</b> From <b>Savitribai Phule Pune University</b>. <br />- Nov 2022 - Aug 2025</p>
+                            <p>I Currently Pursing my <b>Bachelor of Engineering B.E.</b> in <b> Electrical Engineering</b> From <b>Savitribai Phule Pune University</b>. <br />- Nov 2023 - Aug 2026</p>
 
                             <div>
-                                <b> Diploma in Computer Engineering</b> <br/>
-                                Government Polytechnic, Ahmednagar <br/>
-                                -Aug 2019 - May 2022
+                                <b> Diploma in Electrical Engineering</b> <br/>
+                                M.I.T Polytechnic, Nashik <br/>
+                               - Aug 2020 - May 2022
                             </div>
                         </div>
                     </div>
@@ -44,6 +47,7 @@ function Message() {
                         </div>
                     </div>
                 </div>
+                <Toaster/>
             </div>
         </>
     )
