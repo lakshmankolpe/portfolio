@@ -10,9 +10,9 @@ import Instagram from "./instagram-logo.png";
 function Information() {
   return (
     <>
-      <div className="container ">
-        <div className="row">
-          <div className="col-md-6 ">
+      <div className="container  ">
+        <div className="row ">
+          <div className="col-md-6">
             <img
               src={
                 "https://img.freepik.com/premium-photo/memoji-handsome-indian-guy-man-white-background-emoji-cartoon-character_826801-7991.jpg?w=2000"
@@ -26,7 +26,6 @@ function Information() {
               <div className="row">
                 <a
                   href="https://github.com/lakshmankolpe"
-                  
                   class="ico-social-container"
                   target="blank"
                 >
@@ -119,19 +118,51 @@ function Information() {
             </div>
 
             <div className="m-5 mt-5 rtc-card">
-              <a
-                href="https://www.roadtocode.org/"
-                target="blank"
-                className="rtc-logo-a"
-              >
-                <h5>
-                  <img src={rtcLogo} className="rtc-logo" /> Road To code
-                </h5>
-              </a>
-              <b>Founding Member at Road To Code</b>. We are Helping and
-              Exploring Students To start their Programming Journey . I am
-              Confident to solve Student programming doubt, i have a strong
-              problem sovling skill.
+              <button type="button" class="btn-git btn-sm m-2">
+                <b>
+                  <i class="fa-brands fa-github"></i> Github
+                </b>
+              </button>
+              <button type="button" class="btn-git btn-sm m-2">
+                <b>
+                  <i class="fa-brands fa-github"></i> Github
+                </b>
+              </button>
+              <button type="button" class="btn-git btn-sm m-2">
+                <b>
+                  <i class="fa-brands fa-github"></i> Github
+                </b>
+              </button>
+              <button type="button" class="btn-git btn-sm m-2">
+                <b>
+                  <i class="fa-brands fa-github"></i> Github
+                </b>
+              </button>
+              <button type="button" class="btn-git btn-sm m-2">
+                <b>
+                  <i class="fa-brands fa-github"></i> Github
+                </b>
+              </button>
+              <button type="button" class="btn-boot btn-sm m-2">
+                <b>
+                  <i class="fa-brands fa-bootstrap"></i> Bootstrap
+                </b>
+              </button>
+              <button type="button" class="btn-js btn-sm m-2">
+                <b>
+                  <i class="fa-brands fa-square-js"></i> Javascript
+                </b>
+              </button>
+              <button type="button" class="btn-md btn-sm m-2">
+                <b>
+                  <i class="fa-solid fa-database"></i> Mongo DB
+                </b>
+              </button>
+              <button type="button" class="btn-rj btn-sm m-2">
+                <b>
+                  <i class="fa-brands fa-react"></i> React JS
+                </b>
+              </button>
             </div>
           </div>
         </div>
