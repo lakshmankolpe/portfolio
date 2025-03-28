@@ -1,10 +1,9 @@
 import React from "react";
 import vaibhaviImg from "./lakshman1-img.jpeg";
 import "./Information.css";
-import rtcLogo from "./rtc-logo.png";
 import Github from "./github-logo.png";
 import Linkdin from "./linkdin-logo.png";
-import Twitter from "./twitter-logo.jpg";
+import Twitter from "./twitter-logo.png";
 import Instagram from "./instagram-logo.png";
 
 function Information() {
@@ -42,7 +41,7 @@ function Information() {
 
                 <a
                   href="https://peerlist.io/lakshmanklpe"
-                  class="ico-social-container"
+                  class="ico-social-container peerlist  "
                   target="blank"
                 >
                   <img src={Twitter} alt="linkedin" class="ico-social" />
