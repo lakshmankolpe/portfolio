@@ -28,7 +28,7 @@ function Message() {
 
                             <div>
                                 <b> Diploma in Electrical Engineering</b> <br/>
-                                M.I.T Polytechnic, Nashik <br/>
+                                M.I.T Polytechnic, Dhanore, Nashik <br/>
                                - Aug 2020 - May 2022
                             </div>
                         </div>
