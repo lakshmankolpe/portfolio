@@ -29,22 +29,24 @@
   display: block;
   height: 54px;
   width: 54px;
-  margin-left: auto;
-  margin-right: auto;
+ 
 }
+
 .ico-social {
   height: 42px;
   width: 42px;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 50%;
 }
-.peerlist {
-}
+
+.peerlist {}
 
 .ico-social:hover {
   box-shadow: 5px 5px 10px 2px gray;
   transition: 0.5s;
+
 }
 
 .btn-js {
@@ -146,4 +148,21 @@
 
 .btn-resume:hover {
   box-shadow: 3px 4px 2px -2px rgb(0, 0, 0);
+}
+
+.peerlist-icon {
+  height: 37px;
+  width: 37px;
+  margin-top: 5px;
+  border-radius: 10px;
+
+
+}
+.social-midea-icon-container{
+  width: 400px;
+  margin: auto;
+ padding: 20px;
+ display: flex;
+ justify-content:space-evenly;
+ 
 }

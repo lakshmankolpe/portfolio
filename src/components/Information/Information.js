@@ -9,8 +9,8 @@ import Instagram from "./instagram-logo.png";
 function Information() {
   return (
     <>
-      <div className="container  ">
-        <div className="row ">
+      <div className="container">
+        <div className="row">
           <div className="col-md-6">
             <img
               src={
@@ -22,7 +22,7 @@ function Information() {
             <h5 className="text-center mt-1">Software Developer💻</h5>
 
             <div className="container mt-4">
-              <div className="row">
+              <div className=" social-midea-icon-container">
                 <a
                   href="https://github.com/lakshmankolpe"
                   class="ico-social-container"
@@ -44,11 +44,11 @@ function Information() {
                   class="ico-social-container peerlist  "
                   target="blank"
                 >
-                  <img src={Twitter} alt="linkedin" class="ico-social" />
+                  <img src={Twitter} alt="linkedin" class="ico-social peerlist-icon" />
                 </a>
 
                 <a
-                  href="https://www.instagram.com/lakshman_kolpe_01/"
+                  href="https://mail.google.com/mail/u/0/#inbox"
                   class="ico-social-container"
                   target="blank"
                 >

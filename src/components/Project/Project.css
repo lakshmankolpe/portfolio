@@ -60,15 +60,37 @@
     box-shadow: 3px 4px 2px -2px rgb(0, 0, 0);
 }
 
-.project-heading-card{
+.project-heading-card {
     padding: 10px;
     border-radius: 10px;
-    box-shadow: 1px 1px 3px  gray; 
+    box-shadow: 1px 1px 3px gray;
 }
 
-.expence-icon{
+.expence-icon {
     height: 250px;
 }
-.short-link-icon{
+
+.short-link-icon {
     height: 250px;
+}
+
+.project-more-heading-card {
+    display: flex;
+    justify-content: end;
+    margin-top: 40px;
+}
+
+.project-more-text {
+    background-color: #1a8cff;
+    padding: 2px 15px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 2px 3px 1px -2px rgb(0, 0, 0);
+    transform: scale(1.01);
+}
+
+.project-more-text:hover {
+    box-shadow: 3px 4px 2px -2px rgb(0, 0, 0);
+
+
 }
