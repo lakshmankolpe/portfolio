@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Project.css";
 import bookImg from "./expense.png";
 import chalkTalk from "./chalk-talk.png";
@@ -169,9 +170,11 @@ function Project() {
         </div>
 
         <div className="project-more-heading-card">
-          <span className="project-more-text  btn-primary text-center mt-3">
-            <i class="fa-solid fa-forward"></i> <b>More Projects</b>{" "}
-          </span>
+          <Link to="/more/projects">
+            <span className="project-more-text  btn-primary text-center mt-3">
+              <i class="fa-solid fa-forward"></i> <b>More Projects</b>{" "}
+            </span>
+          </Link>
         </div>
       </div>
     </>

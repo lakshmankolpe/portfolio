@@ -1,9 +1,12 @@
-import React from 'react'
+import React from 'react';
 
 function MoreProject() {
   return (
-    <div>MoreProject</div>
-  )
+    <div>
+      <h1>More Projects</h1>
+      <p>Here are more projects...</p>
+    </div>
+  );
 }
 
-export default MoreProject
+export default MoreProject;
