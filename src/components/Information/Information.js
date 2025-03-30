@@ -60,7 +60,7 @@ function Information() {
             <div className="text-center mt-4">
               <a
                 target="_blank"
-                href="https://drive.google.com/file/d/1Hp5PZtqyIEUbVMq2fLtJMU6Tuf7DEaEl/view?hl=en&pli=1"
+                href="https://drive.google.com/file/d/1jxhPmIuZoHEAJFsp87MWB-kOC26JT7DH/view?usp=drivesdk "
               >
                 <button type="button" class="btn-resume btn-sm m-2">
                   <b>

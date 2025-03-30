@@ -77,7 +77,11 @@
 .project-more-heading-card {
     display: flex;
     justify-content: end;
-    margin-top: 40px;
+    align-items: center;
+    height: 100px;
+    width: 50%;
+    margin: 20px auto;
+    border: 1px solid black;
 }
 
 .project-more-text {
