@@ -1,100 +1,120 @@
 .project-heading-card {
-    height: 50px;
-    width: 300px;
-    margin-left: auto;
-    margin-right: auto;
+  height: 50px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .project-card {
-    padding: 20px;
-    margin-top: 50px;
-    border-radius: 10px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    box-shadow: 5px 5px 10px 2px gray;
+  padding: 20px;
+  margin-top: 50px;
+  border-radius: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 5px 5px 10px 2px gray;
 }
 
 .project-card:hover {
-    box-shadow: 1px 1px 5px gray;
+  box-shadow: 1px 1px 5px gray;
 }
 
 .bg-f-color {
-    background-color: #fffbd4;
-    color: black;
-    border: 1px solid black;
+  background-color: #fffbd4;
+  color: black;
+  border: 1px solid black;
 }
 
 .bg-s-color {
-    background-color: antiquewhite;
-    color: black;
-    border: 1px solid black;
+  background-color: antiquewhite;
+  color: black;
+  border: 1px solid black;
 }
 
-
 .btn-demo {
-    padding: 10px;
-    margin: 5px;
-    width: 150px;
-    border-radius: 30px;
-    border: none;
-    background-color: #efad19;
-    box-shadow: 0px 3px 1px -2px rgb(0, 0, 0);
+  padding: 10px;
+  margin: 5px;
+  width: 150px;
+  border-radius: 30px;
+  border: none;
+  background-color: #efad19;
+  box-shadow: 0px 3px 1px -2px rgb(0, 0, 0);
 }
 
 .btn-demo:hover {
-    box-shadow: 3px 4px 2px -2px rgb(0, 0, 0);
+  box-shadow: 3px 4px 2px -2px rgb(0, 0, 0);
 }
 
 .btn-code {
-    padding: 10px;
-    margin: 5px;
-    width: 150px;
-    border-radius: 30px;
-    border: none;
-    background-color: #e0e0e0;
-    box-shadow: 0px 3px 1px -2px rgb(0, 0, 0);
+  padding: 10px;
+  margin: 5px;
+  width: 150px;
+  border-radius: 30px;
+  border: none;
+  background-color: #e0e0e0;
+  box-shadow: 0px 3px 1px -2px rgb(0, 0, 0);
 }
 
 .btn-code:hover {
-    box-shadow: 3px 4px 2px -2px rgb(0, 0, 0);
+  box-shadow: 3px 4px 2px -2px rgb(0, 0, 0);
 }
 
 .project-heading-card {
-    padding: 10px;
-    border-radius: 10px;
-    box-shadow: 1px 1px 3px gray;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 3px gray;
 }
 
 .expence-icon {
-    height: 250px;
+  height: 250px;
 }
 
 .short-link-icon {
-    height: 250px;
+  height: 250px;
 }
 
 .project-more-heading-card {
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    height: 100px;
-    width: 50%;
-    margin: 20px auto;
-    border: 1px solid black;
+  display: block;
+  align-items: center;
+  height: 260px;
+  width: 70%;
+  margin: auto;
+  margin-top: 50px;
+  /* border-radius: 10px;
+
+    box-shadow: 0px 0px 5px 1px gray; */
+}
+
+.subcontainer-1 {
+  width: 90%;
+  height: 200px;
+  margin: auto;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.more-project-paragraph {
+  text-align: center;
+  font-size: 20px;
+}
+
+.subcontainer-2 {
+  display: flex;
+  width: 200px;
+  margin: auto;
 }
 
 .project-more-text {
-    background-color: #1a8cff;
-    padding: 2px 15px;
-    border-radius: 10px;
-    color: white;
-    box-shadow: 2px 3px 1px -2px rgb(0, 0, 0);
-    transform: scale(1.01);
+  background-color: #1a7cff;
+  padding: 2px 15px;
+  border-radius: 10px;
+  color: white;
+  box-shadow: 2px 3px 1px -2px rgb(0, 0, 0);
+  transform: scale(1.01);
 }
 
 .project-more-text:hover {
-    box-shadow: 3px 4px 2px -2px rgb(0, 0, 0);
-
-
+  box-shadow: 3px 4px 2px -2px rgb(0, 0, 0);
 }

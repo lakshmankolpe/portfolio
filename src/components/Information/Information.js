@@ -44,7 +44,11 @@ function Information() {
                   class="ico-social-container peerlist  "
                   target="blank"
                 >
-                  <img src={Twitter} alt="linkedin" class="ico-social peerlist-icon" />
+                  <img
+                    src={Twitter}
+                    alt="linkedin"
+                    class="ico-social peerlist-icon"
+                  />
                 </a>
 
                 <a
@@ -60,7 +64,7 @@ function Information() {
             <div className="text-center mt-4">
               <a
                 target="_blank"
-                href="https://drive.google.com/file/d/1jxhPmIuZoHEAJFsp87MWB-kOC26JT7DH/view?usp=drivesdk "
+                href="https://drive.google.com/file/d/1kI3AjgcpyPzH4bZisk6xoB8rCZkLx7Om/view?usp=drivesdk "
               >
                 <button type="button" class="btn-resume btn-sm m-2">
                   <b>
