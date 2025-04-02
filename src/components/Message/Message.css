@@ -1,4 +1,4 @@
-.send-message-card{
+.send-message-card {
     padding: 20px;
     margin-top: 50px;
     border-radius: 10px;
@@ -8,7 +8,7 @@
     box-shadow: 1px 1px 4px 2px gray;
 }
 
-.btn-send-msg{
+.btn-send-msg {
     padding: 5px;
     margin: 3px;
     width: 150px;
@@ -17,21 +17,21 @@
     box-shadow: 0px 3px 1px -2px rgb(0, 0, 0);
 }
 
-.btn-send-msg:hover{
+.btn-send-msg:hover {
     box-shadow: 3px 4px 2px -2px rgb(0, 0, 0);
 }
 
-.contact-card{
+.contact-card {
     padding: 20px;
     margin-top: 50px;
     border-radius: 10px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: 1px 1px 3px  gray;
+    box-shadow: 1px 1px 3px gray;
 }
 
-.login-form-input{
+.login-form-input {
     width: 100%;
     height: 40px;
     background-color: #f0f0f0;
@@ -42,9 +42,9 @@
 
 .login-form-input:focus {
     outline: none;
-  }
+}
 
-.text-area-input{
+.text-area-input {
     width: 100%;
     border: none;
     padding: 20px;
@@ -55,4 +55,26 @@
 
 .text-area-input:focus {
     outline: none;
-  }
+}
+
+
+.btn-gradient {
+    background: linear-gradient(135deg, #007bff, #6610f2);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 8px 24px;
+    font-size: 12px;
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.btn-gradient:hover {
+    background: linear-gradient(135deg, #6610f2, #007bff);
+    transform: translateY(-2px);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}

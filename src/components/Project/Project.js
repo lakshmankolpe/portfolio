@@ -169,24 +169,17 @@ function Project() {
           </div>
         </div>
 
-        <div className="project-more-heading-card">
-          <div className="subcontainer-1">
-            <p className=" more-project-paragraph fw-medium">
-              If you want to explore more of my projects, click the 'More
-              Project' button. There you will get complete information about the
-              project and understand the various features used in it. You will
-              also learn about the technologies I use and my skills. It will
-              also be clear how I can help you. So please click the 'More
-              Project' button!
-            </p>
-          </div>
-          <div className="subcontainer-2">
-            <Link to="/more/projects">
-              <span className="project-more-text  btn-primary text-center text-decoration-none m-3 p-2">
-                <i class="fa-solid fa-forward"></i> <b>More Projects</b>{" "}
-              </span>
-            </Link>
-          </div>
+        <div className="text-center my-5">
+          <p className="fw-bold text-dark fs-4 mb-4">
+            🚀 Explore My Projects & See My Skills in Action!
+          </p>
+          <Link
+            to="/more/projects"
+            className="btn btn-gradient btn-sm px-4 py-2 fw-semibold d-inline-flex align-items-center gap-3"
+          >
+            <i className="fa-solid fa-arrow-right fs-5"></i>{" "}
+            <span className="fw-bold "> More Projects</span>
+          </Link>
         </div>
       </div>
     </>
