@@ -77,15 +77,15 @@ function Information() {
 
           {/* bg-danger  */}
           <div className="col-md-6  d-flex align-items-center ">
-            <div className="mt-5">
-             <p className="fs-4"> Hi! I'm <b>Lakshman Kolpe</b> I'm a Full Stack Developer and I am
+            <p className="self-information">
+              Hi! I'm <b>Lakshman Kolpe</b> I'm a Full Stack Developer and I am
               passionate about coding. I have experience in various programming
               languages ​​and have worked on web development projects using
               HTML, CSS, JavaScript, Bootstrap, Tailwind CSS, Node.js, React.js
               and MongoDB. I love creating efficient and easy-to-use
               applications for users. I love learning new things and
-              continuously improving as a great developer.</p>
-            </div>
+              continuously improving as a great developer.
+            </p>
 
             {/* <div className="mt-4 card-skill bg-danger">
               <p className="text-center">
