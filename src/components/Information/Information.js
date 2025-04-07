@@ -87,7 +87,7 @@ function Information() {
               continuously improving as a great developer.
             </p>
 
-            {/* <div className="mt-4 card-skill bg-danger">
+            <div className="mt-4 card-skill bg-danger">
               <p className="text-center">
                 <button type="button" class="btn-js btn-sm m-2">
                   <b>
@@ -120,9 +120,9 @@ function Information() {
                   </b>
                 </button>
               </p>
-            </div> */}
+            </div>
 
-            {/* <div className="m-5 mt-5 rtc-card bg-danger">
+            <div className="m-5 mt-5 rtc-card bg-danger">
               <button type="button" class="btn-git btn-sm m-2">
                 <b>
                   <i class="fa-brands fa-github"></i> Github
@@ -168,7 +168,7 @@ function Information() {
                   <i class="fa-brands fa-react"></i> React JS
                 </b>
               </button>
-            </div> */}
+            </div>
           </div>
         </div>
       </div>
