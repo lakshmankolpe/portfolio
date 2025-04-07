@@ -74,8 +74,6 @@ function Information() {
               </a>
             </div>
           </div>
-
-          {/* bg-danger  */}
           <div className="col-md-6  d-flex align-items-center ">
             <p className="self-information">
               Hi! I'm <b>Lakshman Kolpe</b> I'm a Full Stack Developer and I am
