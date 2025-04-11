@@ -1,0 +1,15 @@
+.skill-main-container{
+
+
+    text-align: center;
+    margin: 10px 0;
+}
+.sub-container{
+height: 250px;
+background-color:white;
+box-shadow:  0 0 10px 3px  gray;
+border-radius: 5px;
+
+margin: 30px 8px;
+}
+
