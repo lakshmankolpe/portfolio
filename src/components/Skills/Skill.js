@@ -69,9 +69,6 @@ function SkillSection() {
 
   return (
     <div>
-      <div className="project-heading-card">
-        <h3 className="text-center">Skill Section</h3>
-      </div>
       <div className="auth-skills">
         <div>
           <h2 className="auth-skill-type">Frontend</h2>
