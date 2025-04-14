@@ -47,7 +47,8 @@ function Information() {
                   <img
                     src={Twitter}
                     alt="linkedin"
-                    class="ico-social peerlist-icon"
+                    class="ico-social "
+                    className="peerlist-icon"
                   />
                 </a>
 

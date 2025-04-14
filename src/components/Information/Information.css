@@ -38,10 +38,10 @@
   margin-left: auto;
   margin-right: auto;
   border-radius: 50%;
+
 }
 
-.peerlist {
-}
+.peerlist {}
 
 .ico-social:hover {
   box-shadow: 5px 5px 10px 2px gray;
@@ -150,11 +150,13 @@
 }
 
 .peerlist-icon {
-  height: 37px;
-  width: 37px;
-  margin-top: 5px;
+  height: 35px;
+  width: 35px;
+  margin: 6px 5px;
   border-radius: 10px;
+
 }
+
 .social-midea-icon-container {
   width: 400px;
   margin: auto;
@@ -168,6 +170,7 @@
   font-weight: 400;
   font-family: "Times New Roman", Times, serif;
 }
+
 @media screen and (max-width: 480px) {
   .header-img {
     height: 180px;
@@ -180,29 +183,15 @@
   }
 
   .social-midea-icon-container {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     width: 100%;
     gap: 10px;
   }
 
-  .ico-social-container {
-    margin: 10px auto;
-  }
 
-  .btn-js,
-  .btn-rj,
-  .btn-nj,
-  .btn-boot,
-  .btn-md,
-  .btn-git,
-  .btn-resume {
-    width: 100%;
-font-size: 14px;
- display: block;
-    margin: 10px auto;
-   
-  }
+
+
 
   .self-information {
     font-size: 16px;
@@ -211,15 +200,31 @@ font-size: 14px;
   }
 
   .peerlist-icon {
-    height: 30px;
-    width: 30px;
+    height: 31px;
+    width: 31px;
+    margin: 4px 6px;
+    border-radius: 6px;
+
   }
 
-  .rtc-logo {
-    height: 24px;
-  }
 
   .social-midea-icon-container {
     padding: 10px;
+  }
+
+  .ico-social-container {
+    margin: 0px auto;
+    padding: 1px;
+    padding-top: 3px;
+
+    height: 45px;
+    width: 45px;
+  }
+
+  .ico-social {
+    height: 38px;
+    width: 38px;
+    ;
+
   }
 }
