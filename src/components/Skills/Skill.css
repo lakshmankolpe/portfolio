@@ -8,13 +8,10 @@
 
 /* Title for each skill type */
 .auth-skill-type {
-  font-size: 28px;
-  font-weight: 700;
+  font-size: 25px;
   color: #2c3e50;
   text-align: center;
   margin-bottom: 30px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
 }
 
 /* Container for individual skill cards */
@@ -53,7 +50,7 @@
 
 .category-container:hover {
   transform: scale(1.05);
-  box-shadow: 0 10px 30px rgba(0, 200, 255, 0.25);
+  box-shadow: 0 5px 20px rgb(204, 204, 204)
 }
 
 /* Glow border */
@@ -86,14 +83,13 @@
 }
 
 /* Main heading */
-.project-heading-card h3 {
-  font-size: 2.5rem;
-  font-weight: 800;
-  color: #1f2b45;
-  text-align: center;
-  margin: 40px 0 20px;
-  letter-spacing: 1.8px;
+.project-heading-card {
+  height: 50px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 
 /* Responsive styles */
 @media (max-width: 600px) {

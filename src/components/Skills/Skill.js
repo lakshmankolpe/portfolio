@@ -9,7 +9,7 @@ import expressImg from "./../../assests/express.png";
 import mongoImg from "./../../assests/mongodb.png";
 import bootstrapImg from "./../../assests/bootstrap.png";
 import githubImg from "./../../assests/github.png";
-import vercelImg from "./../../assests/tailwind.png";
+import vercelImg from "./../../assests/vercel.png";
 import tailwindCss from "./../../assests/tailwind.png";
 import redis from "./../../assests/redis.png";
 
@@ -69,6 +69,9 @@ function SkillSection() {
 
   return (
     <div>
+  <div className='project-heading-card'>
+        <h3 className='text-center'> Skill Section</h3>
+      </div>
       <div className="auth-skills">
         <div>
           <h2 className="auth-skill-type">Frontend</h2>
