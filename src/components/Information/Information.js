@@ -53,7 +53,7 @@ function Information() {
                 </a>
 
                 <a
-                  href="https://mail.google.com/mail/u/0/#inbox"
+                  href="https://www.instagram.com/lakshman_kolpe_01/"
                   class="ico-social-container"
                   target="blank"
                 >

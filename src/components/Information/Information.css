@@ -38,10 +38,10 @@
   margin-left: auto;
   margin-right: auto;
   border-radius: 50%;
-
 }
 
-.peerlist {}
+.peerlist {
+}
 
 .ico-social:hover {
   box-shadow: 5px 5px 10px 2px gray;
@@ -154,7 +154,6 @@
   width: 35px;
   margin: 6px 5px;
   border-radius: 10px;
-
 }
 
 .social-midea-icon-container {
@@ -189,10 +188,6 @@
     gap: 10px;
   }
 
-
-
-
-
   .self-information {
     font-size: 16px;
     text-align: center;
@@ -204,9 +199,7 @@
     width: 31px;
     margin: 4px 6px;
     border-radius: 6px;
-
   }
-
 
   .social-midea-icon-container {
     padding: 10px;
@@ -224,7 +217,5 @@
   .ico-social {
     height: 38px;
     width: 38px;
-    ;
-
   }
 }

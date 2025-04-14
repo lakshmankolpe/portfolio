@@ -8,7 +8,7 @@ function Project() {
   return (
     <>
       <div className="project-heading-card">
-        <h3 className="text-center">
+        <h3 className="text-center ">
           <i class="fa-sharp fa-solid fa-computer"></i> Projects Section
         </h3>
       </div>
