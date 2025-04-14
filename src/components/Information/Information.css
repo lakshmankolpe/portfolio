@@ -29,7 +29,6 @@
   display: block;
   height: 54px;
   width: 54px;
- 
 }
 
 .ico-social {
@@ -41,12 +40,12 @@
   border-radius: 50%;
 }
 
-.peerlist {}
+.peerlist {
+}
 
 .ico-social:hover {
   box-shadow: 5px 5px 10px 2px gray;
   transition: 0.5s;
-
 }
 
 .btn-js {
@@ -155,22 +154,72 @@
   width: 37px;
   margin-top: 5px;
   border-radius: 10px;
-
-
 }
-.social-midea-icon-container{
+.social-midea-icon-container {
   width: 400px;
   margin: auto;
- padding: 20px;
- display: flex;
- justify-content:space-evenly;
- 
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.self-information{
+.self-information {
   font-size: 20px;
   font-weight: 400;
- font-family: 'Times New Roman', Times, serif;
- 
+  font-family: "Times New Roman", Times, serif;
+}
+@media screen and (max-width: 480px) {
+  .header-img {
+    height: 180px;
+    width: 180px;
+  }
 
+  .rtc-card {
+    margin-top: 20px;
+    padding: 15px;
+  }
+
+  .social-midea-icon-container {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+  }
+
+  .ico-social-container {
+    margin: 10px auto;
+  }
+
+  .btn-js,
+  .btn-rj,
+  .btn-nj,
+  .btn-boot,
+  .btn-md,
+  .btn-git,
+  .btn-resume {
+    width: 100%;
+font-size: 14px;
+ display: block;
+    margin: 10px auto;
+   
+  }
+
+  .self-information {
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .peerlist-icon {
+    height: 30px;
+    width: 30px;
+  }
+
+  .rtc-logo {
+    height: 24px;
+  }
+
+  .social-midea-icon-container {
+    padding: 10px;
+  }
 }
