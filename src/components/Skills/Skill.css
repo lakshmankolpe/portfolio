@@ -50,7 +50,7 @@
 
 .category-container:hover {
   transform: scale(1.05);
-  box-shadow: 0 5px 20px rgb(204, 204, 204)
+  box-shadow: 0 5px 20px rgb(204, 204, 204);
 }
 
 /* Glow border */
@@ -90,7 +90,6 @@
   margin-right: auto;
 }
 
-
 /* Responsive styles */
 @media (max-width: 600px) {
   .auth-skills {
@@ -119,6 +118,9 @@
     font-size: 1.8rem;
   }
 }
-@media (max-width: 300px) {
 
+@media screen and (min-width: 760px) and (max-width: 1000px) {
+  .project-heading-card {
+    margin-top: 35px;
+  }
 }

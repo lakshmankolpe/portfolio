@@ -192,6 +192,7 @@
     font-size: 16px;
     text-align: center;
     padding: 10px;
+
   }
 
   .peerlist-icon {
@@ -219,3 +220,36 @@
     width: 38px;
   }
 }
+
+@media screen and (min-width: 760px) and (max-width: 1000px) {
+  .header-img {
+    height: 200px;
+  }
+
+  .social-midea-icon-container {
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .self-information {
+    font-size: 20px;
+    padding: 10px;
+  }
+
+  .ico-social-container {
+    height: 50px;
+    width: 50px;
+  }
+
+  .ico-social {
+    height: 36px;
+    width: 36px;
+  }
+
+  .peerlist-icon {
+    height: 30px;
+    width: 30px;
+  }
+}
+
