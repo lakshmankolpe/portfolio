@@ -19,7 +19,7 @@ function Information() {
               className="header-img mt-3 mx-auto d-block "
             />
             <h4 className="text-center mt-3">Lakshman Kolpe</h4>
-            <h5 className="text-center mt-1">Software Developer💻</h5>
+            <h6 className="text-center mt-1">Software Developer💻</h6>
 
             <div className="container mt-4">
               <div className=" social-midea-icon-container">

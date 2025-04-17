@@ -70,7 +70,7 @@ function SkillSection() {
   return (
     <div>
       <div className="project-heading-card">
-        <h3 className="text-center"> Skill Section</h3>
+        <h4 className="text-center"> Skill Section</h4>
       </div>
       <div className="auth-skills">
         <div>

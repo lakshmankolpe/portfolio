@@ -8,9 +8,9 @@ function Project() {
   return (
     <>
       <div className="project-heading-card">
-        <h3 className="text-center ">
+        <h4 className="text-center ">
           <i class="fa-sharp fa-solid fa-computer"></i> Projects Section
-        </h3>
+        </h4>
       </div>
 
       <div className="container mt-2 mb-3">
@@ -24,7 +24,7 @@ function Project() {
               />
             </div>
             <div className="col-md-8">
-              <h3 className="text-center">Expense Tracker 📖</h3>
+              <h4 className="text-center">Expense Tracker 📖</h4>
               <span class="badge badge-pill bg-s-color m-2 p-2">
                 <b>
                   <i class="fa-solid fa-code"></i> HTML
@@ -61,10 +61,10 @@ function Project() {
                 </b>
               </span>
 
-              <h4 className="mt-2 text-center">
+              <h5 className="mt-2 text-center">
                 {" "}
                 📝 Track, manage, and control your expenses effortlessly !
-              </h4>
+              </h5>
               <h6 className="text-center">Get used by anytime, anywhere.</h6>
 
               <div className="text-center">
@@ -103,7 +103,7 @@ function Project() {
               />
             </div>
             <div className="col-md-8 ">
-              <h3 className="text-center">Shortify 🔗</h3>
+              <h4 className="text-center">Shortify 🔗</h4>
               <span class="badge badge-pill bg-s-color m-2 p-2">
                 <b>
                   <i class="fa-solid fa-code"></i> HTML
@@ -140,10 +140,10 @@ function Project() {
                 </b>
               </span>
 
-              <h4 className="mt-2 text-center">
+              <h5 className="mt-2 text-center">
                 Save time and simplify sharing by converting long URLs into
                 short, easy-to-share links effortlessly.
-              </h4>
+              </h5>
 
               <div className="text-center ">
                 <a href="https://shortify-murex.vercel.app/" target="blank">
