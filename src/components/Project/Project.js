@@ -61,11 +61,11 @@ function Project() {
                 </b>
               </span>
 
-              <h5 className="mt-2 text-center">
+              <h5 className="mt-2 text-center project-short-description">
                 {" "}
                 📝 Track, manage, and control your expenses effortlessly !
               </h5>
-              <h6 className="text-center">Get used by anytime, anywhere.</h6>
+              <h6 className="text-center project-2short-description">Get used by anytime, anywhere.</h6>
 
               <div className="text-center">
                 <a href="https://expenes-stracker.vercel.app/" target="blank">
@@ -140,7 +140,7 @@ function Project() {
                 </b>
               </span>
 
-              <h5 className="mt-2 text-center">
+              <h5 className="mt-2 text-center project-short-description">
                 Save time and simplify sharing by converting long URLs into
                 short, easy-to-share links effortlessly.
               </h5>

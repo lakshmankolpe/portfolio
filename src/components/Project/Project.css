@@ -139,5 +139,13 @@
   .explore-more-project-text{
     font-size: 20px;
   }
+  .project-short-description{
+    font-weight:400;
+    font-size: 16px;
+  }
+  .project-2short-description{
+    font-weight:500;
+    font-size: 14px;
+  }
 
 }
