@@ -170,8 +170,8 @@ function Project() {
         </div>
 
         <div className="text-center my-5">
-          <p className="fw-bold text-dark fs-4 mb-4">
-            🚀 Explore My Projects & See My Skills in Action!
+          <p className="fw-bold text-dark fs-5 mb-4  ">
+            <span className="explore-more-project-text">🚀 Explore My Projects & See My Skills in Action!</span>
           </p>
           <Link
             to="/more/projects"
