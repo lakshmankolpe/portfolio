@@ -65,7 +65,7 @@ function Information() {
             <div className="text-center mt-4">
               <a
                 target="_blank"
-                href="https://drive.google.com/file/d/1kI3AjgcpyPzH4bZisk6xoB8rCZkLx7Om/view?usp=drivesdk "
+                href="https://drive.google.com/file/d/1IjRVUkmeihd91ihsq0WhT8_cFzJokIDE/view?usp=drive_link "
               >
                 <button type="button" class="btn-resume btn-sm m-2">
                   <b>
@@ -86,7 +86,7 @@ function Information() {
               continuously improving as a great developer.
             </p>
 
-           
+
           </div>
         </div>
       </div>
